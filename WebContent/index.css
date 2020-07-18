@@ -1,0 +1,141 @@
+html {
+    background-color: darkgrey;
+}
+
+#wrap {
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: auto;
+}
+
+#navi {
+    margin: 20px 0;
+    height: 100px;
+    background-color: #FFF;
+}
+
+#navi ul{
+    float: right;
+    list-style: none;
+    margin-right: 3%;
+    background-color: #FFF;
+}
+
+#navi ul li {
+    float: left;
+}
+
+#navi ul li a{
+    /* float: left; */
+    width: 150px;
+    margin: 10px; /*상하좌우 10px 없으면 네비바 균형 안맞음*/
+    text-align: center;
+    color: purple;
+    background-color: #6DB;
+    font-weight: 600;
+    text-decoration: none; 
+    box-shadow: 2px 2px 2px 2px gray; 
+}
+
+#navi .menu {
+    padding: 10px 10px;
+    display: block; /*링크를 글씨가 있는 부분 뿐만 아니라 전체 영역을 클릭해도 링크가 걸리게 설정*/
+}
+
+
+/* ------------------------------------------------------------- */
+
+.center {
+    height: 80%;
+    background-color: #FFF;
+}
+
+.center h2{
+    margin: 0px 10%;
+    padding: 40px;
+    text-align: center;
+}
+
+.center ul{
+    margin: 20px 10%;
+    padding: 20px;
+    list-style: none;
+}
+
+.comment{
+    list-style: none;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+.main_button{
+    /* 중앙 */
+    text-align: center;
+    /* margin: 0 auto; */
+    /* 정렬 */
+    list-style: none;
+    overflow: hidden;
+}
+
+.main_button li{
+    /* 옆으로 */
+    display: inline-block;
+    /* 흐르게 해줌 */
+    margin: 10px;
+}
+
+.main_button li a{
+    width: 100px;
+    height: 100px;
+    /* 텍스트 */
+    line-height: 100px;
+    /* 세로 중앙 정렬 */
+    color: white;
+    background-color: #6DB;
+    font-weight: 1000;
+    text-decoration: none; 
+    /* 상자 모양 */
+    display: inline-block;
+    /* 유지 */
+    box-shadow: 2px 2px 2px 2px gray; 
+}
+
+.main_button li a:hover{
+    background: #297;
+    color: darkorange;
+}
+
+.center img{
+    /* 이미지 */
+    display: block;
+    margin: 0 auto;
+    /* 중앙정렬 */
+    padding: 40px 0;
+}
+
+footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #FFF;
+}
+
+footer ul{
+    list-style: none;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+footer ul li{
+    font-weight: 1000;
+    color: gray;
+}
+
+.intro_head{
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.photo_post{
+    overflow: auto;
+    margin: 40px;
+}
